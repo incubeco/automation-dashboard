@@ -32,5 +32,17 @@ It is made of several different modules:
 
 # Code
 ## Meteor
+### Install Meteor
+
+### Create Project
+Our next step is to create the project environment.  Begin by creating the meteor project.
+> $ meteor create home-automation
+This creates the directory in the /home/pi directory
+
+### Add / Remove Packages
+Now we need to add the packages that we need.  And remove the ones we don't.  Make sure you are in the project directory before using the *meteor* commands.
+
+MQTT Support - We want to expose our project to the MQTT.js package.
+> $ meteor add mkarliner:mqtt
 
 ## Arduino
